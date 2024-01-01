@@ -13,6 +13,7 @@ const extractFilmId = (url) => {
 const Index = (props) => (
   <Layout>
     <h1>Star Wars Films</h1>
+    {/* star wars logo image */}
     <img src="/static/star-wars.png" alt="star wars" />
     <ul className="film-list">
       {/* map the films and create a link to open the film details */}
